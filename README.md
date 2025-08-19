@@ -1,4 +1,4 @@
-# ![LibraryManager](./static/favicon.ico) Library Manager
+# ![LibraryManager](./frontend/static/favicon.ico) Library Manager
 
 ## What is this?
 

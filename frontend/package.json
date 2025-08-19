@@ -1,7 +1,6 @@
 {
-	"name": "library-manager",
-	"private": true,
-	"version": "0.0.1",
+	"name": "library-manager-frontend",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
 		"start": "pnpm run build && npm run launch",
