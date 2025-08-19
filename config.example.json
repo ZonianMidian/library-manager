@@ -1,0 +1,14 @@
+{
+	"ports": {
+		"backend": "2589",
+		"frontend": "8925"
+	},
+	"database": {
+		"host": "localhost",
+		"user": "postgres",
+		"pass": "strong_password",
+		"name": "library_manager",
+		"connectionLimit": 50
+	},
+	"assets": "/var/lib/library_manager/frontend/static/assets"
+}

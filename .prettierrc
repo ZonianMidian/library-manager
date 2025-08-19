@@ -1,0 +1,15 @@
+{
+	"tabWidth": 4,
+	"semi": true,
+	"useTabs": true,
+	"printWidth": 100,
+	"endOfLine": "auto",
+	"singleQuote": true,
+	"trailingComma": "none",
+	"plugins": ["prettier-plugin-tailwindcss", "prettier-plugin-svelte", "prettier-plugin-sql"],
+	"tailwindStylesheet": "./frontend/src/app.css",
+	"database": "postgresql",
+	"language": "postgresql",
+	"keywordCase": "upper",
+	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }]
+}

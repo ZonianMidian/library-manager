@@ -1,0 +1,26 @@
+{
+	"name": "library-manager",
+	"version": "1.0.0",
+	"scripts": {
+		"first-install": "node ./script.js first-install",
+		"start": "node ./script.js start",
+		"dev": "node --watch ./script.js dev",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@types/eslint": "^9.6.0",
+		"@typescript-eslint/eslint-plugin": "^8.7.0",
+		"@typescript-eslint/parser": "^8.7.0",
+		"concurrently": "^9.2.0",
+		"eslint": "^9.33.0",
+		"eslint-config-prettier": "^10.1.8",
+		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-vitest": "^0.5.4",
+		"prettier": "^3.3.3",
+		"prettier-plugin-sql": "^0.19.2",
+		"prettier-plugin-svelte": "^3.2.7",
+		"prettier-plugin-tailwindcss": "^0.6.8",
+		"typescript-eslint": "^8.0.0"
+	}
+}
